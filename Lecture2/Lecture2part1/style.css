@@ -1,0 +1,70 @@
+ 
+body{
+    background-color: bisque;
+    text-align: center;
+ }
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+
+ a{
+  -webkit-transition: all 1s ease; 
+  -moz-transition: all 1s ease; 
+  -o-transition: all 1s ease; 
+  transition: all 1s ease;
+}
+
+
+a.home{
+    padding: 5px 10px;
+    background-color: lightcyan;
+    border-style: dashed;
+    border-color: red;
+    margin-bottom: 20px;
+  }
+  
+
+a.about{
+    padding: 5px 10px;
+    background-color: lightpink;
+    border-style: double;
+    border-color: fuchsia;
+}
+
+a.contacts{
+    padding: 5px 10px;
+    background-color: coral;
+    border-style: solid;
+    border-color: teal;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+ul li {
+  margin: 30px;
+  background: red;
+}
+
+a:hover {
+  background: red;
+  border: 5px dotted purple;
+}
+
+a:active {
+  background-color: green;
+}
+
+P{
+  line-height: 1.6;
+}
+
+
+
+
